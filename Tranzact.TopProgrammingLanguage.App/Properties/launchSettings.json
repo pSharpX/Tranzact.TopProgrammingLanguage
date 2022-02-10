@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Tranzact.TopProgrammingLanguage.App": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

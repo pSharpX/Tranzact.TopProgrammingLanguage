@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.App", "Tranzact.TopProgrammingLanguage.App\Tranzact.TopProgrammingLanguage.App.csproj", "{23E5112C-774F-4FFE-B328-F90C8D080866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Common", "Tranzact.TopProgrammingLanguage.Common\Tranzact.TopProgrammingLanguage.Common.csproj", "{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Contracts", "Tranzact.TopProgrammingLanguage.Contracts\Tranzact.TopProgrammingLanguage.Contracts.csproj", "{38169DBD-D991-44E1-BF27-FC1E353D5AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Core", "Tranzact.TopProgrammingLanguage.Core\Tranzact.TopProgrammingLanguage.Core.csproj", "{7B685151-EE23-43FE-A434-D18A823B9FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Infrastructure", "Tranzact.TopProgrammingLanguage.Infrastructure\Tranzact.TopProgrammingLanguage.Infrastructure.csproj", "{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23E5112C-774F-4FFE-B328-F90C8D080866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E5112C-774F-4FFE-B328-F90C8D080866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E5112C-774F-4FFE-B328-F90C8D080866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E5112C-774F-4FFE-B328-F90C8D080866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38169DBD-D991-44E1-BF27-FC1E353D5AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38169DBD-D991-44E1-BF27-FC1E353D5AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38169DBD-D991-44E1-BF27-FC1E353D5AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38169DBD-D991-44E1-BF27-FC1E353D5AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B685151-EE23-43FE-A434-D18A823B9FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B685151-EE23-43FE-A434-D18A823B9FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B685151-EE23-43FE-A434-D18A823B9FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B685151-EE23-43FE-A434-D18A823B9FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8ACE47-6CEA-4F81-9A39-79D9452DC1F7}
+	EndGlobalSection
+EndGlobal
