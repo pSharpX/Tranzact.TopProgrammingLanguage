@@ -18,8 +18,7 @@ namespace Tranzact.TopProgrammingLanguage.App
 
             var appView = serviceProvider.GetService<AppView>();
 
-            appView.Render(new SearchRequest(new List<string>() { "java", "c#"}));
-            //appView.Render(new SearchRequest(new List<string>(args)));
+            appView.Render(new SearchRequest(new List<string>(args)));
         }
     }
 }
