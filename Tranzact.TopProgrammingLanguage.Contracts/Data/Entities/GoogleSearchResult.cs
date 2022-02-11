@@ -11,6 +11,18 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
     {
         public SearchQueries Queries { get; set; }
 
+        public GoogleSearchResult()
+        {
+        }
+
+        public GoogleSearchResult(string searchTerm)
+        {
+            this.Queries = new SearchQueries()
+            {
+                Request = new List<SearchQuery>() { new SearchQuery() { SearchTerms = searchTerm } }
+            };
+        }
+
         public SearchInformation SearchInformation { get; set; }
 
         public SearchEngineTypes GetSearchEngine()
@@ -46,7 +58,7 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
 
     }
 
-    public class SearchQueries 
+    public class SearchQueries
     {
 
         public List<SearchQuery> Request { get; set; }

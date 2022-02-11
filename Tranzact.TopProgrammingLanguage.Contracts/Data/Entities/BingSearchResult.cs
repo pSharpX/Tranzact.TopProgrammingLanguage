@@ -15,6 +15,18 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
 
         public WebPages WebPages { get; set; }
 
+        public BingSearchResult()
+        {
+        }
+
+        public BingSearchResult(string searchTerm)
+        {
+            this.QueryContext = new QueryContext()
+            {
+                OriginalQuery = searchTerm
+            };
+        }
+
         public SearchEngineTypes GetSearchEngine()
         {
             return SearchEngineTypes.BING;

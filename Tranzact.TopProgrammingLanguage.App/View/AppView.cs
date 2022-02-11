@@ -21,6 +21,9 @@ namespace Tranzact.TopProgrammingLanguage.App.View
         {
             var response = _service.process(request).Result;
 
+            Console.WriteLine("");
+            Console.WriteLine("Rendering Search Results ...");
+            Console.WriteLine("============================================\n");
             response.ResultsBySearchTerm.ForEach(res =>
             {
                 Console.WriteLine($"SearchTerm: {res.SearchTerm}");
@@ -38,7 +41,7 @@ namespace Tranzact.TopProgrammingLanguage.App.View
                 Console.WriteLine($"{res.SearchEngine} Winner: {res.SearchTermWinner}");
             });
             Console.WriteLine();
-            Console.WriteLine($"Total Winner: {response.SearchTermWinner}");
+            Console.WriteLine($"Total Winner: {response.SearchTermWinner()}");
         }
     }
 }

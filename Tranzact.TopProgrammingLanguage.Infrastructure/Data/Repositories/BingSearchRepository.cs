@@ -35,12 +35,17 @@ namespace Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories
             query["q"] = searchTerm;
             string queryString = query.ToString();
             HttpResponseMessage httpResponse = await this._httpClient.GetAsync($"{this._engineConfig.CustomSearchPath}?{queryString}");
-            var response = await httpResponse.Content.ReadAsStringAsync();
-            var options = new JsonSerializerOptions
+
+            if (httpResponse.IsSuccessStatusCode)
             {
-                PropertyNameCaseInsensitive = true,
-            };
-            return JsonSerializer.Deserialize<BingSearchResult>(response, options);
+                var response = await httpResponse.Content.ReadAsStringAsync();
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true,
+                };
+                return JsonSerializer.Deserialize<BingSearchResult>(response, options);
+            }
+            return new BingSearchResult(searchTerm);
         }
     }
 }
