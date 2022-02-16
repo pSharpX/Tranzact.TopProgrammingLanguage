@@ -18,11 +18,13 @@ namespace Tranzact.TopProgrammingLanguage.Core.Services
             this._searchEngineResolver = searchEngineResolver;
         }
 
-        public async Task<SearchResponse> process(SearchRequest request)
+        public async Task<SearchResponse> Process(SearchRequest request)
         {
-            var tasks = new List<Task<List<SearchEngineResponse>>>();
-            tasks.Add(this._searchEngineResolver.Get(SearchEngineTypes.GOOGLE).Search(request.SearchTerms));
-            tasks.Add(this._searchEngineResolver.Get(SearchEngineTypes.BING).Search(request.SearchTerms));
+            var tasks = new List<Task<List<SearchEngineResponse>>>
+            {
+                _searchEngineResolver.Get(SearchEngineTypes.GOOGLE).Search(request.SearchTerms),
+                _searchEngineResolver.Get(SearchEngineTypes.BING).Search(request.SearchTerms)
+            };
             IEnumerable<List<SearchEngineResponse>> responses = await Task.WhenAll(tasks.ToArray());
 
             var searchResponse = new SearchResponse

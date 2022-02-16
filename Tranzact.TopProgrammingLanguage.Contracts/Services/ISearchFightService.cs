@@ -9,6 +9,6 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Services
 {
     public interface ISearchFightService
     {
-        Task<SearchResponse> process(SearchRequest request);
+        Task<SearchResponse> Process(SearchRequest request);
     }
 }

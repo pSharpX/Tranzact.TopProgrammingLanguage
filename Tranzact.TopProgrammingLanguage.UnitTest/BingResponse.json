@@ -1,0 +1,298 @@
+﻿{
+  "_type": "SearchResponse",
+  "instrumentation": {
+    "_type": "ResponseInstrumentation",
+    "pingUrlBase": "https://www.bingapis.com/api/ping?IG=827C15D1F5EE46D6AF8E81D6633B4442&CID=090714280C6665050E20057C0D5B64FF&ID=",
+    "pageLoadPingUrl": "https://www.bingapis.com/api/ping/pageload?IG=827C15D1F5EE46D6AF8E81D6633B4442&CID=090714280C6665050E20057C0D5B64FF&Type=Event.CPT&DATA=0"
+  },
+  "queryContext": {
+    "originalQuery": "java",
+    "askUserForLocation": true
+  },
+  "webPages": {
+    "webSearchUrl": "https://www.bing.com/search?q=java",
+    "webSearchUrlPingSuffix": "DevEx,5409.1",
+    "totalEstimatedMatches": 46400000,
+    "value": [
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0",
+        "name": "Java | Oracle",
+        "url": "https://www.java.com/",
+        "urlPingSuffix": "DevEx,5099.1",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.java.com",
+        "snippet": "Get started with Java today. Are you a Java developer looking for JDK Downloads?",
+        "deepLinks": [
+          {
+            "name": "Download",
+            "url": "https://java.com/en/download/",
+            "urlPingSuffix": "DevEx,5389.1",
+            "snippet": "Important Oracle Java License Update The Oracle Java License has changed for releases starting April 16, 2019. The new Oracle Technology Network License Agreement for Oracle Java SE is substantially different from prior Oracle Java licenses. The new license permits certain uses, such as personal use and development use, at no cost -- but other uses authorized under prior Oracle Java licenses ...",
+            "deepLinks": [
+              {
+                "name": "All Java Downloads",
+                "url": "https://www.java.com/en/download/manual.jsp",
+                "urlPingSuffix": "DevEx,5390.1"
+              },
+              {
+                "name": "Free Java Update 8",
+                "url": "https://java.com/en/download/java8_update.jsp",
+                "urlPingSuffix": "DevEx,5391.1"
+              },
+              {
+                "name": "Offline Installation",
+                "url": "https://www.java.com/en/download/windows_offline.jsp",
+                "urlPingSuffix": "DevEx,5392.1"
+              },
+              {
+                "name": "How Do I Install Java",
+                "url": "https://java.com/en/download/help/download_options.html",
+                "urlPingSuffix": "DevEx,5393.1"
+              },
+              {
+                "name": "Windows 10 and Java",
+                "url": "https://www.java.com/en/download/help/win10_faq.html",
+                "urlPingSuffix": "DevEx,5394.1"
+              },
+              {
+                "name": "Oracle",
+                "url": "https://www.java.com/en/",
+                "urlPingSuffix": "DevEx,5395.1"
+              }
+            ]
+          },
+          {
+            "name": "Java Uninstall Tool",
+            "url": "https://www.java.com/en/download/uninstalltool.jsp",
+            "urlPingSuffix": "DevEx,5396.1",
+            "snippet": "Java Uninstall Tool - Java | Oracle"
+          },
+          {
+            "name": "Update",
+            "url": "https://java.com/en/download/help/java_update.html",
+            "urlPingSuffix": "DevEx,5397.1",
+            "snippet": "Manual Update Option. From the Java Control Panel Update tab, you can manually check for an update any time by clicking on the Update Now button located at the bottom of the Update tab on the Java Control Panel. Java Update can only be run if the system is connected to the internet."
+          },
+          {
+            "name": "Java Help Center",
+            "url": "https://java.com/en/download/help/index.html",
+            "urlPingSuffix": "DevEx,5398.1",
+            "snippet": "Versions: Version refers to the Java family and the Update number. Examples: On the website or under Windows programs, version appears as Java 8 Update 25. Older versions can also appear as 1.7.0_65, which refers to Java 7 Update 65. The Help section contains information on the following versions of Java.",
+            "deepLinks": [
+              {
+                "name": "Developer",
+                "url": "https://www.java.com/en/download/help/signed_code.html",
+                "urlPingSuffix": "DevEx,5399.1"
+              },
+              {
+                "name": "Printing Issues With Java",
+                "url": "https://java.com/en/download/help/java_printing.html",
+                "urlPingSuffix": "DevEx,5400.1"
+              },
+              {
+                "name": "Restore Java Security Prompts",
+                "url": "https://java.com/en/download/help/restore_prompts.html",
+                "urlPingSuffix": "DevEx,5401.1"
+              },
+              {
+                "name": "Using Java",
+                "url": "https://www.java.com/en/download/help/index_using.html",
+                "urlPingSuffix": "DevEx,5402.1"
+              },
+              {
+                "name": "Java is Out of Date",
+                "url": "https://java.com/en/download/help/expire_date.html",
+                "urlPingSuffix": "DevEx,5403.1"
+              },
+              {
+                "name": "Troubleshooting Tips for Running Java",
+                "url": "https://www.java.com/en/download/help/troubleshoot_java.html",
+                "urlPingSuffix": "DevEx,5404.1"
+              }
+            ]
+          },
+          {
+            "name": "Download Java For Windows",
+            "url": "https://www.java.com/download/ie_manual.jsp",
+            "urlPingSuffix": "DevEx,5405.1",
+            "snippet": "Java software for your computer, or the Java Runtime Environment, is also referred to as the Java Runtime, Runtime Environment, Runtime, JRE, Java Virtual Machine, Virtual Machine, Java VM, JVM, VM, Java plug-in, Java plugin, Java add-on or Java download.",
+            "deepLinks": [
+              {
+                "name": "Remove Older Versions",
+                "url": "https://www.java.com/en/download/help/remove_olderversions.html",
+                "urlPingSuffix": "DevEx,5406.1"
+              },
+              {
+                "name": "64-Bit Browser 1,0,0,0",
+                "url": "https://www.java.com/en/download/help/java_win64bit.html",
+                "urlPingSuffix": "DevEx,5407.1"
+              },
+              {
+                "name": "What is Java FAQ",
+                "url": "https://java.com/en/download/help/whatis_java.html",
+                "urlPingSuffix": "DevEx,5408.1"
+              }
+            ]
+          }
+        ],
+        "dateLastCrawled": "2022-02-20T11:27:00.0000000Z",
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": true
+      },
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1",
+        "name": "Download Java for Windows",
+        "url": "https://java.com/en/download/windows_manual.jsp",
+        "urlPingSuffix": "DevEx,5130.1",
+        "datePublished": "2019-04-16T00:00:00.0000000",
+        "datePublishedDisplayText": "Apr 16, 2019",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://java.com/en/download/windows_manual.jsp",
+        "snippet": "Java allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few. It's also integral to the intranet applications and other e-business solutions that are the foundation of corporate computing.",
+        "dateLastCrawled": "2022-02-20T11:44:00.0000000Z",
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2",
+        "name": "Java Software | Oracle",
+        "url": "https://www.oracle.com/java/",
+        "urlPingSuffix": "DevEx,5145.1",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.oracle.com/java",
+        "snippet": "Java software reduces costs, drives innovation, and improves application services. Learn more about Java, the #1 development platform.",
+        "dateLastCrawled": "2022-02-20T11:05:00.0000000Z",
+        "openGraphImage": {
+          "contentUrl": "https://www.oracle.com/a/ocom/img/social-og-oracle-badge.jpg",
+          "width": 0,
+          "height": 0
+        },
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3",
+        "name": "Java Downloads for All Operating Systems",
+        "url": "https://java.com/en/download/manual.jsp",
+        "urlPingSuffix": "DevEx,5160.1",
+        "datePublished": "2019-04-16T00:00:00.0000000",
+        "datePublishedDisplayText": "Apr 16, 2019",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://java.com/en/download/manual.jsp",
+        "snippet": "Java allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few. It's also integral to the intranet applications and other e-business solutions that are the foundation of corporate computing.",
+        "dateLastCrawled": "2022-02-20T11:37:00.0000000Z",
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4",
+        "name": "Install Java in Internet Explorer",
+        "url": "https://support.microsoft.com/en-us/windows/install-java-in-internet-explorer-e9fde175-f750-2902-d6da-a97a83587856",
+        "urlPingSuffix": "DevEx,5174.1",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://support.microsoft.com/en-us/windows/install-java-in-internet-explorer-e9fde175...",
+        "snippet": "Open Internet Explorer icon and go to Java.com. Select the Free Java Download button, and then select Agree and Start Free Download. If you're prompted for an administrator password or confirmation, type the password or provide confirmation. On the notification bar, select Run. If you're prompted for an administrator password or confirmation, type the password or provide confirmation.",
+        "dateLastCrawled": "2022-02-21T00:19:00.0000000Z",
+        "searchTags": [
+          {
+            "name": "search.audiencetype",
+            "content": "\"End User\"; end; user"
+          },
+          {
+            "name": "search.contenttype",
+            "content": "\"Download\"; download"
+          },
+          {
+            "name": "search.description",
+            "content": "\"Learn how to install Java on your PC so you can run apps that require in Internet Explorer.\"; learn; how; to; install; java; on; your; pc; so; you; can; run; apps; that; require; in; internet; explorer"
+          },
+          {
+            "name": "search.isofficedoc",
+            "content": "\"true\"; true"
+          },
+          {
+            "name": "search.products",
+            "content": "\"c6cab6e3-6598-6a1f-fbb2-f66d3740139d,6a88efa5-712b-9e99-f1b9-368dc2d81f2e,b2012b15-7770-3165-b934-5b004ee86f67,f825ca23-c7d1-aab8-4513-64980e1c3007\"; c6cab6e3; 6598; 6a1f; fbb2; f66d3740139d; 6a88efa5; 712b; 9e99; f1b9; 368dc2d81f2e; b2012b15; 7770; 3165; b934; 5b004ee86f67; f825ca23; c7d1; aab8; 4513; 64980e1c3007"
+          },
+          {
+            "name": "search.mkt",
+            "content": "\"en-US\"; en; us"
+          }
+        ],
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": false
+      },
+      {
+        "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5",
+        "name": "Java Downloads - Oracle",
+        "url": "https://www.oracle.com/java/technologies/downloads/",
+        "urlPingSuffix": "DevEx,5189.1",
+        "isFamilyFriendly": true,
+        "displayUrl": "https://www.oracle.com/java/technologies/downloads",
+        "snippet": "The JDK is a development environment for building applications and components using the Java programming language. The JDK includes tools for developing and testing programs written in the Java programming language and running on the Java platform.",
+        "dateLastCrawled": "2022-02-20T11:38:00.0000000Z",
+        "openGraphImage": {
+          "contentUrl": "https://www.oracle.com/a/ocom/img/social-og-java-logo-1200x628.jpg",
+          "width": 0,
+          "height": 0
+        },
+        "fixedPosition": false,
+        "language": "en",
+        "isNavigational": false
+      }
+    ]
+  },
+  "rankingResponse": {
+    "mainline": {
+      "items": [
+        {
+          "answerType": "WebPages",
+          "resultIndex": 0,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.0"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 1,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.1"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 2,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.2"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 3,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.3"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 4,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.4"
+          }
+        },
+        {
+          "answerType": "WebPages",
+          "resultIndex": 5,
+          "value": {
+            "id": "https://api.bing.microsoft.com/api/v7/#WebPages.5"
+          }
+        }
+      ]
+    }
+  }
+}

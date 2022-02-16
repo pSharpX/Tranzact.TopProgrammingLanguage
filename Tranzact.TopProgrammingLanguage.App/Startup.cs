@@ -6,9 +6,11 @@ using Microsoft.Extensions.Logging;
 using Tranzact.TopProgrammingLanguage.App.View;
 using Tranzact.TopProgrammingLanguage.Contracts.Config;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
+using Tranzact.TopProgrammingLanguage.Contracts.Providers;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
 using Tranzact.TopProgrammingLanguage.Core.Services;
 using Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories;
+using Tranzact.TopProgrammingLanguage.Infrastructure.Providers;
 
 namespace Tranzact.TopProgrammingLanguage.App
 {
@@ -30,15 +32,18 @@ namespace Tranzact.TopProgrammingLanguage.App
             services.AddLogging(configure => configure.AddConsole())
                 .Configure<LoggerFilterOptions>(options => options.MinLevel = LogLevel.Information);
             services.AddSingleton(Configuration);
+            services.AddSingleton<IHttpClientProvider, HttpClientProvider>();
+            services.AddSingleton<IBingConfigProvider, BingConfigProvider>();
+            services.AddSingleton<IGoogleConfigProvider, GoogleConfigProvider>();
             services.AddSingleton<IGoogleSearchRepository, GoogleSearchRepository>();
             services.AddSingleton<IBingSearchRepository, BingSearchRepository>();
             services.AddSingleton<ISearchEngineResolver, SearchEngineResolver>();
             services.AddSingleton<ISearchFightService, SearchFightService>();
 
-            services.AddTransient<GoogleSearchService>();
-            services.AddTransient<BingSearchService>();
-            services.AddTransient<YahooSearchService>();
-            services.AddTransient<AppView>();
+            services.AddSingleton<GoogleSearchService>();
+            services.AddSingleton<BingSearchService>();
+            services.AddSingleton<YahooSearchService>();
+            services.AddSingleton<AppView>();
 
             services.Configure<BingEngineConfig>(options => Configuration.GetSection("BingEngineConfig").Bind(options));
             services.Configure<GoogleEngineConfig>(options => Configuration.GetSection("GoogleEngineConfig").Bind(options));

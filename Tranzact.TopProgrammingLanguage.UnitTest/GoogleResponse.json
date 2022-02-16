@@ -1,0 +1,371 @@
+﻿{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - java",
+        "totalResults": "145",
+        "searchTerms": "java",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "005323623211031431777:ctwbm98jfi0"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - java",
+        "totalResults": "145",
+        "searchTerms": "java",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "005323623211031431777:ctwbm98jfi0"
+      }
+    ]
+  },
+  "context": {
+    "title": "Unapiquitos.edu.pe"
+  },
+  "searchInformation": {
+    "searchTime": 0.223937,
+    "formattedSearchTime": "0.22",
+    "totalResults": "145",
+    "formattedTotalResults": "145"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "ASAMBLEA ESTATUTARIA",
+      "htmlTitle": "ASAMBLEA ESTATUTARIA",
+      "link": "https://www.unapiquitos.edu.pe/transparenciaaa/Documentos%20UNAP%202014/Resolucion-AE-2014/RAE-003-2014-AE-UNAP.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "15 dic 2014 ... FRANK MICHEL JAVA BARBOZA. 2. DEYDI AUGUSTO GONZAlES TORRES. 3. MARICIELO TITINAC ARÉVALO PINEDO. 4. uns DANIEL SALDAÑA SUNCiÓN.",
+      "htmlSnippet": "15 dic 2014 \u003cb\u003e...\u003c/b\u003e FRANK MICHEL \u003cb\u003eJAVA\u003c/b\u003e BARBOZA. 2. DEYDI AUGUSTO GONZAlES TORRES. 3. MARICIELO TITINAC ARÉVALO PINEDO. 4. uns DANIEL SALDAÑA SUNCiÓN.",
+      "cacheId": "q9W4R-99UJcJ",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/...AE.../RAE-003-2014-AE-UNAP.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/...AE.../RAE-003-2014-AE-UNAP.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Eg67-v5kLNfjsm7H2bbw6oNB16z3E1JUvfsI67aAGeXDakHMCACLQOyX",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20141225171643-05'00'",
+            "creator": "Nitro Pro 8"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///08fa3ed925b16e8062ba9d225157a247e063d9dac0c5498c1c87eefda83e2d3b"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Certificación del Curso de Inducción a la Modalidad a Distancia ...",
+      "htmlTitle": "Certificación del Curso de Inducción a la Modalidad a Distancia ...",
+      "link": "https://www.unapiquitos.edu.pe/contenido/noticias/descargas/PMESUT-UNAP_Difusion-para-certificados_Estudiantes.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "KAROLAY JHOSSY INGA JAVA. 680. KARY KCAMILA VELA TELLO. 681. KARYN LLESY SANGAMA PEREZ. 682. KASSANDRA GUERRA SANCHEZ. 683. KASSANDRA JUVIRY GALARRETA LOMAS.",
+      "htmlSnippet": "KAROLAY JHOSSY INGA \u003cb\u003eJAVA\u003c/b\u003e. 680. KARY KCAMILA VELA TELLO. 681. KARYN LLESY SANGAMA PEREZ. 682. KASSANDRA GUERRA SANCHEZ. 683. KASSANDRA JUVIRY GALARRETA LOMAS.",
+      "cacheId": "FOgg1yjEJ74J",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/.../PMESUT-UNAP_Difusion-para- certificados_Estudiantes.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/.../PMESUT-UNAP_Difusion-para- certificados_Estudiantes.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQi8RtrDhmkag3d5RVK6L8NRXdJ9aqC13w5FRADasmoZHbxGm59ADk4heg",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20210222230926-05'00'",
+            "creationdate": "D:20210222230851-05'00'",
+            "creator": "Microsoft® Word 2016",
+            "author": "Elizabeth Nevado Chávez",
+            "producer": "Microsoft® Word 2016"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///6da7bdfd39b44f5b4d240a96ac51c92445a705d83c441668ff3f4510c2ae61e1"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "visro.",
+      "htmlTitle": "visro.",
+      "link": "https://www.unapiquitos.edu.pe/transparenciaaa/Documentos_UNAP_2015/Res_rectorales_2015/diciembre_15/RR-1268-2015-UNAP.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "15 dic 2015 ... Mlc hel Java Bar boza, de la Facultad de Agronomía (FA), y doña ln,füa Miluska i;ánchez Ca mus, de l.i. Facultad de Enfermería (FE);.",
+      "htmlSnippet": "15 dic 2015 \u003cb\u003e...\u003c/b\u003e Mlc hel \u003cb\u003eJava\u003c/b\u003e Bar boza, de la Facultad de Agronomía (FA), y doña ln,füa Miluska i;ánchez Ca mus, de l.i. Facultad de Enfermería (FE);.",
+      "cacheId": "-ZKQxDjymPoJ",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/...UNAP.../RR-1268-2015-UNAP.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/...UNAP.../RR-1268-2015-UNAP.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw0fXhgMCSfAIVmVvzH7We6LJfICybSotpI1SPQE7NalV5AqD19QG0rXAp",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20160122121529-05'00'",
+            "creator": "Nitro Pro",
+            "creationdate": "D:20160122171406Z",
+            "producer": "Nitro Pro"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///b7a8285d165a4c4ff60f8513b82bf0185e108822f3ce825cb024ca88b5fddf97"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "UBICACIÓN DE PABELLONES, AULAS Y ASIENTOS PARA EL ...",
+      "htmlTitle": "UBICACIÓN DE PABELLONES, AULAS Y ASIENTOS PARA EL ...",
+      "link": "https://www.unapiquitos.edu.pe/contenido/noticias/descargas/LISTAS-DE%20UBICACION.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "JAVA. VARGAS. JHOAN MANUEL. B. 18. 7. 71113464. JESUS. ALVAREZ. DEIVIS OLIVER. A. 10. 1. 70268187. JESUS. JESUS. JAILA ROCIO. B. 16. 9. Page 12. 73951063.",
+      "htmlSnippet": "\u003cb\u003eJAVA\u003c/b\u003e. VARGAS. JHOAN MANUEL. B. 18. 7. 71113464. JESUS. ALVAREZ. DEIVIS OLIVER. A. 10. 1. 70268187. JESUS. JESUS. JAILA ROCIO. B. 16. 9. Page 12. 73951063.",
+      "cacheId": "sEopJ8WP_JkJ",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/.../LISTAS-DE%20UBICACION.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/.../LISTAS-DE%20UBICACION.pdf",
+      "pagemap": {
+        "metatags": [
+          {
+            "moddate": "D:20190104110750-05'00'",
+            "creationdate": "D:20190104110750-05'00'",
+            "creator": "Nitro Pro 11 (11.0.5.271)",
+            "author": "User",
+            "producer": "Nitro Pro 11 (11.0.5.271)",
+            "title": "LISTAS.xlsx"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "APELLIDOS NOMBRES DNI FACULTAD ESCUELA SEDE ...",
+      "htmlTitle": "APELLIDOS NOMBRES DNI FACULTAD ESCUELA SEDE ...",
+      "link": "https://www.unapiquitos.edu.pe/contenido/noticias/descargas/elecciones-unap-2019/padron-de-electores/ALUMNOS.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "JAVA VARGAS. JHOAN MANUEL. 60580076 CIENC. DE LA EDUC. Y HUMANIDADES. SECUNDARIA: LENGUA Y LITERATU. Iquitos. LLERENA BOYER. MIRNA NADETH. 73366203 CIENC.",
+      "htmlSnippet": "\u003cb\u003eJAVA\u003c/b\u003e VARGAS. JHOAN MANUEL. 60580076 CIENC. DE LA EDUC. Y HUMANIDADES. SECUNDARIA: LENGUA Y LITERATU. Iquitos. LLERENA BOYER. MIRNA NADETH. 73366203 CIENC.",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/contenido/noticias/.../ALUMNOS.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/contenido/noticias/.../ALUMNOS.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhiwTGSBe1NAgxSiLSrF4xQa9A_Ng3fFOrvlQmjew2kVhtIs9BKN_ogxA",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20190609214720-05'00'",
+            "creationdate": "D:20190609214720-05'00'",
+            "creator": "Microsoft® Excel® para Office 365",
+            "author": "Apache POI",
+            "producer": "Microsoft® Excel® para Office 365"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///c434b7d6db55dc2e7f3e068e61d38c57c24a20ec868bb1ba2ab869e63d7fc7f4"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "LISTADO GENERAL POR ESCUELA EN ORDEN DE MERITO ...",
+      "htmlTitle": "LISTADO GENERAL POR ESCUELA EN ORDEN DE MERITO ...",
+      "link": "https://www.unapiquitos.edu.pe/pregrado/admision/descargas/Admision-2020/Listado-General-Por-Escuelas-Orden-de-Merito-2020-I.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "5 ene 2020 ... 72036390 JAVA PINEDO EDDY SANTIAGO. 68. 290.000. 53. 29. NO CUBRIO VACANTE. OMG Orden de Merito General. FECHA : 05/01/20.",
+      "htmlSnippet": "5 ene 2020 \u003cb\u003e...\u003c/b\u003e 72036390 \u003cb\u003eJAVA\u003c/b\u003e PINEDO EDDY SANTIAGO. 68. 290.000. 53. 29. NO CUBRIO VACANTE. OMG Orden de Merito General. FECHA : 05/01/20.",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/.../Listado-General-Por-Escuelas-Orden-de- Merito-2020-I.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/.../Listado-General-Por-Escuelas-Orden-de- Merito-2020-I.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAEsqijdjOuWj4tdjUJFDDz2UOWKBJnskT9c_b3bByYpDGbOcUqbvUZqoC",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20200105151848-05'00'",
+            "creationdate": "D:20200105151848-05'00'",
+            "author": "marco.sanchez",
+            "producer": "Microsoft: Print To PDF",
+            "title": "D:\\_POLYCHECK.AMAZONIA2020\\POLYCHEK.EXE.00\\report\\rep003.FRX"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///fbfb07b3aab90b8653671ec5c34a131b3cb885b224d014d55175ee84b95ae69b"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://www.unapiquitos.edu.pe/transparenciaaa/Documentos%20UNAP%202013/Resoluciones%20Rectorales/mayo-2013/RR-1137-2013-UNAP.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "8 may 2013 ... Dist: RVRAC VRAD,EPG, Fac (14).Onc Gris (11),OCIAL Abast..Cont., Tes., Upp, Lee,InL, Rac..OILPCM, Archivo(1) java.",
+      "htmlSnippet": "8 may 2013 \u003cb\u003e...\u003c/b\u003e Dist: RVRAC VRAD,EPG, Fac (14).Onc Gris (11),OCIAL Abast..Cont., Tes., Upp, Lee,InL, Rac..OILPCM, Archivo(1) \u003cb\u003ejava\u003c/b\u003e.",
+      "cacheId": "dwqy6aqn7FQJ",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/.../mayo-2013/RR-1137-2013-UNAP.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/.../mayo-2013/RR-1137-2013-UNAP.pdf",
+      "pagemap": {
+        "metatags": [
+          {
+            "moddate": "Fri Jul  5 14:16:30 2013",
+            "creator": "Adobe Acrobat 10.1.7",
+            "creationdate": "Fri Jul  5 14:16:30 2013",
+            "producer": "Acrobat Distiller 10.1.7 (Windows)"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Rectorado",
+      "htmlTitle": "Rectorado",
+      "link": "http://www.unapiquitos.edu.pe/transparenciaaa/Documentos_UNAP_2015/Res_rectorales_2015/junio_15/RR-0650-2015-UNAP-ReglamentoGeneral-de-Elecciones2015.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "19 jun 2015 ... Java Ilarbola. de la Facultad de Agronomía y dona Indira Miluska Sánchcz Camus, de la Facultad de I:nlcrmería;. CONSIDERANDO: ~I Oficio n.",
+      "htmlSnippet": "19 jun 2015 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eJava\u003c/b\u003e Ilarbola. de la Facultad de Agronomía y dona Indira Miluska Sánchcz Camus, de la Facultad de I:nlcrmería;. CONSIDERANDO: ~I Oficio n.",
+      "cacheId": "OY5_ruVc6OIJ",
+      "formattedUrl": "www.unapiquitos.edu.pe/.../RR-0650-2015-UNAP-ReglamentoGeneral-de- Elecciones2015.pdf",
+      "htmlFormattedUrl": "www.unapiquitos.edu.pe/.../RR-0650-2015-UNAP-ReglamentoGeneral-de- Elecciones2015.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZE7RexhGkmlOHcU9M06_I97zYjfUNmAhlbIv2fc-B9kYZexQHxg5sz5g",
+            "width": "186",
+            "height": "272"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20150622201023-05'00'",
+            "creator": "Nitro Pro 8"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///48bacac6a19aa47c3fc7c4f53e81d624d15fe63821f513df46d57e6f01cda01b"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "ASIGNATURAS (SUMILLAS)",
+      "htmlTitle": "ASIGNATURAS (SUMILLAS)",
+      "link": "https://www.unapiquitos.edu.pe/pregrado/facultades/fisi/descargas/sumilla.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "lenguajes de programación C++ y JAVA. Al finalizar el curso el alumno aplicará con pertinencia y eficiencia el paradigma de la programación orientada a ...",
+      "htmlSnippet": "lenguajes de programación C++ y \u003cb\u003eJAVA\u003c/b\u003e. Al finalizar el curso el alumno aplicará con pertinencia y eficiencia el paradigma de la programación orientada a&nbsp;...",
+      "cacheId": "h6ou2rcUuL4J",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/pregrado/facultades/fisi/.../sumilla.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/pregrado/facultades/fisi/.../sumilla.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAnQ5pGSuusR7oduXmWAdbA0X8wnTrpFftWY79dowoSVy-PoFI5228cYU",
+            "width": "189",
+            "height": "267"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20041112164340",
+            "creationdate": "D:20041112164340",
+            "creator": "PrimoPDF http://www.primopdf.com",
+            "author": "Principal",
+            "producer": "AFPL Ghostscript 8.13",
+            "title": "Microsoft Word - ASIGNATURAS.doc"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///183cffd34d5ef6b579557f7df6124d6df8d221e75dca1c515fcfef1deb413e7d"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Untitled",
+      "htmlTitle": "Untitled",
+      "link": "https://www.unapiquitos.edu.pe/transparenciaaa/Documentos%20UNAP%202013/Resoluciones%20Rectorales/mayo-2013/RR-1234-2013-UNAP.pdf",
+      "displayLink": "www.unapiquitos.edu.pe",
+      "snippet": "27 may 2013 ... VY/RECTOR. WA. *. **. SECRETARIA GENERALI. Dist.: R. VRAC VRAD, FMH,OGA OGP.OGA OC1,01 Asunt.Acad.FMH Archivo(4) java.",
+      "htmlSnippet": "27 may 2013 \u003cb\u003e...\u003c/b\u003e VY/RECTOR. WA. *. **. SECRETARIA GENERALI. Dist.: R. VRAC VRAD, FMH,OGA OGP.OGA OC1,01 Asunt.Acad.FMH Archivo(4) \u003cb\u003ejava\u003c/b\u003e.",
+      "cacheId": "Ere8mc1ajgsJ",
+      "formattedUrl": "https://www.unapiquitos.edu.pe/.../mayo-2013/RR-1234-2013-UNAP.pdf",
+      "htmlFormattedUrl": "https://www.unapiquitos.edu.pe/.../mayo-2013/RR-1234-2013-UNAP.pdf",
+      "pagemap": {
+        "metatags": [
+          {
+            "moddate": "Fri Jul  5 14:12:30 2013",
+            "creator": "Adobe Acrobat 10.1.7",
+            "creationdate": "Fri Jul  5 14:12:30 2013",
+            "producer": "Acrobat Distiller 10.1.7 (Windows)"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    }
+  ]
+}

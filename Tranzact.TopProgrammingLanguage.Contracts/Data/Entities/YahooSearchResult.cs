@@ -24,7 +24,7 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
             throw new NotImplementedException();
         }
 
-        public long? GetTotal()
+        public long GetTotal()
         {
             throw new NotImplementedException();
         }

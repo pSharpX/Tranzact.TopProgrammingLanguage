@@ -12,7 +12,7 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Dto
         public SearchEngineResponse(ISearchResult searchResult)
         {
             this.SearchEngineName = searchResult.GetSearchEngine().ToString();
-            this.Total = searchResult.GetTotal().GetValueOrDefault();
+            this.Total = searchResult.GetTotal();
             this.SearchTerm = searchResult.GetSearchTerm();
         }
 

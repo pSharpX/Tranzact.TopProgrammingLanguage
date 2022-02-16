@@ -40,7 +40,7 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
             return this.SearchInformation?.FormattedSearchTime;
         }
 
-        public long? GetTotal()
+        public long GetTotal()
         {
             return Convert.ToInt64(this.SearchInformation?.TotalResults);
         }

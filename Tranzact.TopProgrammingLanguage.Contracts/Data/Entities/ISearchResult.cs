@@ -9,7 +9,7 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
 {
     public interface ISearchResult
     {
-        long? GetTotal();
+        long GetTotal();
 
         string GetSearchTerm();
 

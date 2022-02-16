@@ -1,16 +1,13 @@
-﻿using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
 using Tranzact.TopProgrammingLanguage.Contracts.Config;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
+using Tranzact.TopProgrammingLanguage.Contracts.Providers;
 
 namespace Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories
 {
@@ -20,10 +17,11 @@ namespace Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories
 
         private readonly GoogleEngineConfig _engineConfig;
 
-        public GoogleSearchRepository(IOptions<GoogleEngineConfig> options)
+        public GoogleSearchRepository(IHttpClientProvider clientProvider, IGoogleConfigProvider configProvider)
         {
-            this._engineConfig = options.Value;
-            this._httpClient = new HttpClient { BaseAddress = new Uri(this._engineConfig.BaseUrl) };
+            this._engineConfig = configProvider.GetSearchEngineConfig();
+            this._httpClient = clientProvider.GetHttpClient();
+            this._httpClient.BaseAddress = new Uri(this._engineConfig.BaseUrl);
             this._httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); ;
         }
 
