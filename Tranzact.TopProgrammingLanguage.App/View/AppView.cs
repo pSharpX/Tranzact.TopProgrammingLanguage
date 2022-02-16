@@ -19,7 +19,7 @@ namespace Tranzact.TopProgrammingLanguage.App.View
 
         public void Render(SearchRequest request)
         {
-            var response = _service.process(request).Result;
+            var response = _service.Process(request).Result;
 
             Console.WriteLine("");
             Console.WriteLine("Rendering Search Results ...");

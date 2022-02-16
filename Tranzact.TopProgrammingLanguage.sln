@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.App", "Tranzact.TopProgrammingLanguage.App\Tranzact.TopProgrammingLanguage.App.csproj", "{23E5112C-774F-4FFE-B328-F90C8D080866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.App", "Tranzact.TopProgrammingLanguage.App\Tranzact.TopProgrammingLanguage.App.csproj", "{23E5112C-774F-4FFE-B328-F90C8D080866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Common", "Tranzact.TopProgrammingLanguage.Common\Tranzact.TopProgrammingLanguage.Common.csproj", "{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.Common", "Tranzact.TopProgrammingLanguage.Common\Tranzact.TopProgrammingLanguage.Common.csproj", "{1905FCCD-7DF4-46A2-B825-0DF7F53D8E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Contracts", "Tranzact.TopProgrammingLanguage.Contracts\Tranzact.TopProgrammingLanguage.Contracts.csproj", "{38169DBD-D991-44E1-BF27-FC1E353D5AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.Contracts", "Tranzact.TopProgrammingLanguage.Contracts\Tranzact.TopProgrammingLanguage.Contracts.csproj", "{38169DBD-D991-44E1-BF27-FC1E353D5AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Core", "Tranzact.TopProgrammingLanguage.Core\Tranzact.TopProgrammingLanguage.Core.csproj", "{7B685151-EE23-43FE-A434-D18A823B9FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.Core", "Tranzact.TopProgrammingLanguage.Core\Tranzact.TopProgrammingLanguage.Core.csproj", "{7B685151-EE23-43FE-A434-D18A823B9FCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Infrastructure", "Tranzact.TopProgrammingLanguage.Infrastructure\Tranzact.TopProgrammingLanguage.Infrastructure.csproj", "{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.Infrastructure", "Tranzact.TopProgrammingLanguage.Infrastructure\Tranzact.TopProgrammingLanguage.Infrastructure.csproj", "{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.UnitTest", "Tranzact.TopProgrammingLanguage.UnitTest\Tranzact.TopProgrammingLanguage.UnitTest.csproj", "{B2213F2F-7004-4593-9ECF-4988EEF7A52C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

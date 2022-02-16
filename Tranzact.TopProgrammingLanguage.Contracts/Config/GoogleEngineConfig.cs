@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace Tranzact.TopProgrammingLanguage.Contracts.Config
 {
-    public class GoogleEngineConfig
+    public class GoogleEngineConfig: SearchEngineConfig
     {
         public string SearchEngineId { get; set; }
 
         public string ApiKey { get; set; }
 
-        public string BaseUrl { get; set; }
-
-        public string CustomSearchPath { get; set; } = "customsearch/v1";
+        public override string CustomSearchPath { get; set; } = "customsearch/v1";
     }
 }

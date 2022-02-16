@@ -1,36 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Immutable;
 using Tranzact.TopProgrammingLanguage.Contracts.Enum;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Tranzact.TopProgrammingLanguage.Core.Services
 {
     public class SearchEngineResolver : ISearchEngineResolver
     {
-        private readonly IServiceProvider _serviceProvider;
+        private readonly IDictionary<SearchEngineTypes, ISearchService> _searchEngines;
 
-        private readonly Dictionary<SearchEngineTypes, ISearchService> _searchEngines;
-
-        public SearchEngineResolver(IServiceProvider serviceProvider)
+        public SearchEngineResolver(GoogleSearchService googleSearchService, BingSearchService bingSearchService, YahooSearchService yahooSearchService)
         {
-            this._serviceProvider = serviceProvider;
-            this._searchEngines = new Dictionary<SearchEngineTypes, ISearchService>();
-            this._searchEngines.Add(SearchEngineTypes.GOOGLE, this._serviceProvider.GetService<GoogleSearchService>());
-            this._searchEngines.Add(SearchEngineTypes.BING, this._serviceProvider.GetService<BingSearchService>());
-            this._searchEngines.Add(SearchEngineTypes.YAHOO, this._serviceProvider.GetService<YahooSearchService>());
+            this._searchEngines = new Dictionary<SearchEngineTypes, ISearchService>
+            {
+                { SearchEngineTypes.GOOGLE, googleSearchService },
+                { SearchEngineTypes.BING, bingSearchService },
+                { SearchEngineTypes.YAHOO, yahooSearchService }
+            }.ToImmutableDictionary();
         }
 
         public ISearchService Get(SearchEngineTypes searchEngine)
         {
             if (this._searchEngines.ContainsKey(searchEngine))
             {
-                return this._searchEngines.GetValueOrDefault(searchEngine);
+                return this._searchEngines[searchEngine];
             }
-            throw new NotImplementedException();
+            throw new NotImplementedException("search engine service not implemented");
         }
 
     }

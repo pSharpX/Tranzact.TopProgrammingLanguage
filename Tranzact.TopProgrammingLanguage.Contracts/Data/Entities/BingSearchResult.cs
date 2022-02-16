@@ -42,9 +42,9 @@ namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Entities
             throw new NotImplementedException();
         }
 
-        public long? GetTotal()
+        public long GetTotal()
         {
-            return this.WebPages?.TotalEstimatedMatches;
+            return this.WebPages?.TotalEstimatedMatches ?? 0;
         }
     }
 
