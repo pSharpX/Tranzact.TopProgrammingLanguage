@@ -20,4 +20,4 @@ RUN dotnet publish "Tranzact.TopProgrammingLanguage.App.csproj" -c Release -o /a
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Tranzact.TopProgrammingLanguage.App.dll java php"]
+ENTRYPOINT ["dotnet", "Tranzact.TopProgrammingLanguage.App.dll"]
