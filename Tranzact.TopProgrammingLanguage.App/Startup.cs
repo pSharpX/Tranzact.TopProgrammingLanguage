@@ -35,8 +35,11 @@ namespace Tranzact.TopProgrammingLanguage.App
             services.AddSingleton<IHttpClientProvider, HttpClientProvider>();
             services.AddSingleton<IBingConfigProvider, BingConfigProvider>();
             services.AddSingleton<IGoogleConfigProvider, GoogleConfigProvider>();
+
             services.AddSingleton<IGoogleSearchRepository, GoogleSearchRepository>();
             services.AddSingleton<IBingSearchRepository, BingSearchRepository>();
+            services.AddSingleton<IYahooSearchRepository, YahooSearchRepository>();
+
             services.AddSingleton<ISearchEngineResolver, SearchEngineResolver>();
             services.AddSingleton<ISearchFightService, SearchFightService>();
 
