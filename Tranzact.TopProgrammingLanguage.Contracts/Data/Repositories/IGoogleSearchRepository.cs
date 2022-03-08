@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
+﻿using Tranzact.TopProgrammingLanguage.Domain.Entities;
 
 namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories
 {

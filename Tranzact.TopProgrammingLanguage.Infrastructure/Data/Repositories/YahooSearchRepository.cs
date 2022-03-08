@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
+using Tranzact.TopProgrammingLanguage.Domain.Entities;
 
 namespace Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories
 {

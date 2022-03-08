@@ -1,4 +1,4 @@
-﻿using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
+﻿using Tranzact.TopProgrammingLanguage.Domain.Entities;
 
 namespace Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories
 {

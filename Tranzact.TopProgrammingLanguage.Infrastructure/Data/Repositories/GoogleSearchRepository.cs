@@ -5,9 +5,9 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
 using Tranzact.TopProgrammingLanguage.Contracts.Config;
-using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
 using Tranzact.TopProgrammingLanguage.Contracts.Providers;
+using Tranzact.TopProgrammingLanguage.Domain.Entities;
 
 namespace Tranzact.TopProgrammingLanguage.Infrastructure.Data.Repositories
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tranzact.TopProgrammingLanguage.Contracts.Enum;
+using Tranzact.TopProgrammingLanguage.Domain.Enums;
 
 namespace Tranzact.TopProgrammingLanguage.Contracts.Services
 {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Immutable;
-using Tranzact.TopProgrammingLanguage.Contracts.Enum;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
+using Tranzact.TopProgrammingLanguage.Domain.Enums;
 
 namespace Tranzact.TopProgrammingLanguage.Core.Services
 {
