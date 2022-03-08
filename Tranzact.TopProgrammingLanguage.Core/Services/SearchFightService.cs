@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Tranzact.TopProgrammingLanguage.Contracts.Dto;
-using Tranzact.TopProgrammingLanguage.Contracts.Enum;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
+using Tranzact.TopProgrammingLanguage.Domain.Enums;
 
 namespace Tranzact.TopProgrammingLanguage.Core.Services
 {

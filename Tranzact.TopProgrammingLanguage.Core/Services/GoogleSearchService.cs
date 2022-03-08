@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
 using Tranzact.TopProgrammingLanguage.Contracts.Dto;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
+using Tranzact.TopProgrammingLanguage.Domain.Common;
 
 namespace Tranzact.TopProgrammingLanguage.Core.Services
 {
