@@ -3,11 +3,11 @@ using FluentAssertions;
 using NSubstitute;
 using System;
 using System.Threading.Tasks;
-using Tranzact.TopProgrammingLanguage.Contracts.Data.Entities;
 using Tranzact.TopProgrammingLanguage.Contracts.Data.Repositories;
-using Tranzact.TopProgrammingLanguage.Contracts.Enum;
 using Tranzact.TopProgrammingLanguage.Contracts.Services;
 using Tranzact.TopProgrammingLanguage.Core.Services;
+using Tranzact.TopProgrammingLanguage.Domain.Entities;
+using Tranzact.TopProgrammingLanguage.Domain.Enums;
 using Xunit;
 
 namespace Tranzact.TopProgrammingLanguage.UnitTest.Services

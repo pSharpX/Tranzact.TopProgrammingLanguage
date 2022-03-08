@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLang
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.Infrastructure", "Tranzact.TopProgrammingLanguage.Infrastructure\Tranzact.TopProgrammingLanguage.Infrastructure.csproj", "{884C4B17-0CF3-4C52-AFAE-AFEF775E738F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.UnitTest", "Tranzact.TopProgrammingLanguage.UnitTest\Tranzact.TopProgrammingLanguage.UnitTest.csproj", "{B2213F2F-7004-4593-9ECF-4988EEF7A52C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tranzact.TopProgrammingLanguage.UnitTest", "Tranzact.TopProgrammingLanguage.UnitTest\Tranzact.TopProgrammingLanguage.UnitTest.csproj", "{B2213F2F-7004-4593-9ECF-4988EEF7A52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tranzact.TopProgrammingLanguage.Domain", "Tranzact.TopProgrammingLanguage.Domain\Tranzact.TopProgrammingLanguage.Domain.csproj", "{C0888D8E-0E44-4F3E-98CD-6866875D833A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2213F2F-7004-4593-9ECF-4988EEF7A52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0888D8E-0E44-4F3E-98CD-6866875D833A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0888D8E-0E44-4F3E-98CD-6866875D833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0888D8E-0E44-4F3E-98CD-6866875D833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0888D8E-0E44-4F3E-98CD-6866875D833A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
